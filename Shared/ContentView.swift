@@ -2,7 +2,10 @@
 //  ContentView.swift
 //  Shared
 //
-//  Created by Les Poltrack on 10/16/21.
+//  CIS 137
+//  Partner Lab 2
+//  Conrad Boucher & Les Poltrack
+//  Oct 22, 2021
 //
 
 import SwiftUI
@@ -22,11 +25,12 @@ struct ContentView: View {
     
     // INIT sets up the cell sizes based on the size of the screen
     init() {
-//        if UIDevice.current.userInterfaceIdiom == .mac {
- //           screenWidth = 1000.0
-   //     } else {
-            screenWidth = UIScreen.main.bounds.width // works, but not compatible with Mac
-     //   }
+        #if os(macOS)  // on Mac, not full screen width, just do a window
+            screenWidth = 500.0
+        #else  // on iOS, use the full screen width
+            screenWidth = UIScreen.main.bounds.width
+        #endif
+        
         cellWidth = screenWidth * 0.3 // Have each about 1/3 of screen wide
         cellSpacing = screenWidth * 0.05 // take up remaining space with void
         cellHeight = cellWidth * 2.0 / 3.0 // Pics are 3:2 aspect ratio

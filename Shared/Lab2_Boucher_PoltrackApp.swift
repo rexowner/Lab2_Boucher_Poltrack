@@ -2,7 +2,10 @@
 //  Lab2_Boucher_PoltrackApp.swift
 //  Shared
 //
-//  Created by Les Poltrack on 10/16/21.
+//  CIS 137
+//  Partner Lab 2
+//  Conrad Boucher & Les Poltrack
+//  Oct 22, 2021
 //
 
 import SwiftUI
