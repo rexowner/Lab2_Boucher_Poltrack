@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AADCD2B1271BF054004CF635 /* Lab2_Boucher_PoltrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADCD29E271BF053004CF635 /* Lab2_Boucher_PoltrackApp.swift */; };
+		AADCD2B2271BF054004CF635 /* Lab2_Boucher_PoltrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADCD29E271BF053004CF635 /* Lab2_Boucher_PoltrackApp.swift */; };
+		AADCD2B3271BF054004CF635 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADCD29F271BF053004CF635 /* ContentView.swift */; };
+		AADCD2B4271BF054004CF635 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADCD29F271BF053004CF635 /* ContentView.swift */; };
+		AADCD2B5271BF054004CF635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADCD2A0271BF054004CF635 /* Assets.xcassets */; };
+		AADCD2B6271BF054004CF635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADCD2A0271BF054004CF635 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AADCD29E271BF053004CF635 /* Lab2_Boucher_PoltrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab2_Boucher_PoltrackApp.swift; sourceTree = "<group>"; };
+		AADCD29F271BF053004CF635 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AADCD2A0271BF054004CF635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AADCD2A5271BF054004CF635 /* Lab2_Boucher_Poltrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab2_Boucher_Poltrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADCD2A8271BF054004CF635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADCD2AD271BF054004CF635 /* Lab2_Boucher_Poltrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab2_Boucher_Poltrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADCD2AF271BF054004CF635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADCD2B0271BF054004CF635 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AADCD2A2271BF054004CF635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADCD2AA271BF054004CF635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AADCD298271BF052004CF635 = {
+			isa = PBXGroup;
+			children = (
+				AADCD29D271BF053004CF635 /* Shared */,
+				AADCD2A7271BF054004CF635 /* iOS */,
+				AADCD2AE271BF054004CF635 /* macOS */,
+				AADCD2A6271BF054004CF635 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AADCD29D271BF053004CF635 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AADCD29E271BF053004CF635 /* Lab2_Boucher_PoltrackApp.swift */,
+				AADCD29F271BF053004CF635 /* ContentView.swift */,
+				AADCD2A0271BF054004CF635 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AADCD2A6271BF054004CF635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AADCD2A5271BF054004CF635 /* Lab2_Boucher_Poltrack.app */,
+				AADCD2AD271BF054004CF635 /* Lab2_Boucher_Poltrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AADCD2A7271BF054004CF635 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AADCD2A8271BF054004CF635 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		AADCD2AE271BF054004CF635 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AADCD2AF271BF054004CF635 /* Info.plist */,
+				AADCD2B0271BF054004CF635 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AADCD2A4271BF054004CF635 /* Lab2_Boucher_Poltrack (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADCD2B9271BF054004CF635 /* Build configuration list for PBXNativeTarget "Lab2_Boucher_Poltrack (iOS)" */;
+			buildPhases = (
+				AADCD2A1271BF054004CF635 /* Sources */,
+				AADCD2A2271BF054004CF635 /* Frameworks */,
+				AADCD2A3271BF054004CF635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab2_Boucher_Poltrack (iOS)";
+			productName = "Lab2_Boucher_Poltrack (iOS)";
+			productReference = AADCD2A5271BF054004CF635 /* Lab2_Boucher_Poltrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AADCD2AC271BF054004CF635 /* Lab2_Boucher_Poltrack (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADCD2BC271BF054004CF635 /* Build configuration list for PBXNativeTarget "Lab2_Boucher_Poltrack (macOS)" */;
+			buildPhases = (
+				AADCD2A9271BF054004CF635 /* Sources */,
+				AADCD2AA271BF054004CF635 /* Frameworks */,
+				AADCD2AB271BF054004CF635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab2_Boucher_Poltrack (macOS)";
+			productName = "Lab2_Boucher_Poltrack (macOS)";
+			productReference = AADCD2AD271BF054004CF635 /* Lab2_Boucher_Poltrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AADCD299271BF052004CF635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AADCD2A4271BF054004CF635 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AADCD2AC271BF054004CF635 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = AADCD29C271BF052004CF635 /* Build configuration list for PBXProject "Lab2_Boucher_Poltrack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AADCD298271BF052004CF635;
+			productRefGroup = AADCD2A6271BF054004CF635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AADCD2A4271BF054004CF635 /* Lab2_Boucher_Poltrack (iOS) */,
+				AADCD2AC271BF054004CF635 /* Lab2_Boucher_Poltrack (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AADCD2A3271BF054004CF635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADCD2B5271BF054004CF635 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADCD2AB271BF054004CF635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADCD2B6271BF054004CF635 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AADCD2A1271BF054004CF635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADCD2B3271BF054004CF635 /* ContentView.swift in Sources */,
+				AADCD2B1271BF054004CF635 /* Lab2_Boucher_PoltrackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADCD2A9271BF054004CF635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADCD2B4271BF054004CF635 /* ContentView.swift in Sources */,
+				AADCD2B2271BF054004CF635 /* Lab2_Boucher_PoltrackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AADCD2B7271BF054004CF635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AADCD2B8271BF054004CF635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AADCD2BA271BF054004CF635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 955G9A58VT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poltrack.Lab2-Boucher-Poltrack";
+				PRODUCT_NAME = Lab2_Boucher_Poltrack;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AADCD2BB271BF054004CF635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 955G9A58VT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poltrack.Lab2-Boucher-Poltrack";
+				PRODUCT_NAME = Lab2_Boucher_Poltrack;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AADCD2BD271BF054004CF635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 955G9A58VT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poltrack.Lab2-Boucher-Poltrack";
+				PRODUCT_NAME = Lab2_Boucher_Poltrack;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AADCD2BE271BF054004CF635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 955G9A58VT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poltrack.Lab2-Boucher-Poltrack";
+				PRODUCT_NAME = Lab2_Boucher_Poltrack;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AADCD29C271BF052004CF635 /* Build configuration list for PBXProject "Lab2_Boucher_Poltrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADCD2B7271BF054004CF635 /* Debug */,
+				AADCD2B8271BF054004CF635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADCD2B9271BF054004CF635 /* Build configuration list for PBXNativeTarget "Lab2_Boucher_Poltrack (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADCD2BA271BF054004CF635 /* Debug */,
+				AADCD2BB271BF054004CF635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADCD2BC271BF054004CF635 /* Build configuration list for PBXNativeTarget "Lab2_Boucher_Poltrack (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADCD2BD271BF054004CF635 /* Debug */,
+				AADCD2BE271BF054004CF635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AADCD299271BF052004CF635 /* Project object */;
+}
