@@ -48,10 +48,13 @@ struct ContentView: View {
                     CardView(image: dogKey, height: cellHeight, width: cellWidth)
                         .onTapGesture {
                         }
+                        .cornerRadius(10)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 4))
+                        
                 }
             }
-            
-        }
+        }.navigationTitle(Text("Title"))
     }
     struct CardView: View {
         var image: String

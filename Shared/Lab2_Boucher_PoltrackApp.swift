@@ -14,6 +14,9 @@ import SwiftUI
 struct Lab2_Boucher_PoltrackApp: App {
     var body: some Scene {
         WindowGroup {
+            Text(verbatim: "Dog Memory Game")
+                .foregroundColor(Color.blue)
+                .font(.largeTitle)
             ContentView()
         }
     }
